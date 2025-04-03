@@ -1,3 +1,14 @@
+# Force Java, Kotlin & XML recognition
 *.java linguist-detectable=true
+*.java linguist-language=Java
+
 *.kt linguist-detectable=true
+*.kt linguist-language=Kotlin
+
 *.xml linguist-detectable=true
+*.xml linguist-language=XML
+
+# Ignore ZIP files for language stats
+*.zip linguist-vendored=true
+*.jar linguist-vendored=true
+*.apk linguist-vendored=true
